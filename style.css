@@ -44,7 +44,7 @@ header{
 }
 
 .logo img {
-    width: 150px;
+    width: 120px;
     height: auto;
 }
 
@@ -263,4 +263,5 @@ button:hover {
 #followme h2 {
     color: #3b0a6b;
     font-size: 42px;
+
 }
