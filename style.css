@@ -44,7 +44,7 @@ header{
 }
 
 .logo img {
-    width: 120px;
+    width: 90px;
     height: auto;
 }
 
@@ -265,3 +265,4 @@ button:hover {
     font-size: 42px;
 
 }
+
