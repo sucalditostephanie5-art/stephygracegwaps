@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100%;
+    height: auto; /* almost full viewport height */
+    background: url('2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 30px;
+}
+
+
+/* HEADERS & TEXT */
+h1,h2,h3{
+    font-family: 'Lucida Sans';
+    font-size: 40px;
+}
+
+p{
+    font-family: Times;
+    font-size: 30px;
+}
+
+/* HEADER */
+header{
+    background: linear-gradient(135deg,#e474fa,#f3b0fc);
+    color:#5c305a;
+    padding:25px 10px;
+    text-align:center;
+    font-family:Georgia;
+    font-size: 59px;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+.photo-frame {
+    padding: 10px;
+    border: 6px solid #f580eb;        /* pink frame */
+    background: #fdbef8;              /* light blue inner background */
+    border-radius: 20px;              /* soft rounded corners */
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+    display: inline-block;
+    align-items: center;
+}
+
+.photo-frame img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 14px;
+    align-items: center;
+}
+
+/* NAV */
+ul{
+    list-style:none;
+    margin-top:12px;
+}
+
+ul li{
+    display:inline-block;
+    margin:0 10px;
+    font-size: 30px;
+}
+
+ul li a{
+    color: rgb(51, 30, 49);
+    text-decoration:none;
+    font-weight:bold;
+    font-family: Helvetica;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+ 
+    color: rgb(192, 8, 161);
+}
+
+/* SECTIONS */
+.section{
+    width:85%;
+    margin:25px auto;
+    background:rgb(193, 156, 194);
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.section h2{
+    margin-bottom:10px;
+}
+
+
+
+/* PHOTO + TEXT STYLE */
+.info-with-photo{
+    display:flex;
+    flex-direction: column; /* center the photo above text */
+    align-items: center;
+    gap:15px;
+    margin:12px 0;
+    padding:12px;
+    border-radius:14px;
+    background:linear-gradient(135deg,#bb61af,#e6f4ff);
+}
+
+.info-with-photo img{
+    width:100%;
+    max-width:480px; /* 16:9 aspect ratio approx */
+    height:auto;
+    aspect-ratio:16/9;
+    object-fit:cover;
+    border-radius:14px;
+    border:5px solid #ffd6ec;
+    background:#e3f4ff;
+    box-shadow:0 5px 14px rgba(0,0,0,0.12);
+}
+
+
+#about h2 {
+    color: #3b0a6b;
+    font-size: 42px;
+}
+
+#about p {
+    font-size: 28px;
+    font-style: italic;
+    font-family:  Helvetica;
+}
+
+#skills {
+    background: hsl(288, 54%, 70%);
+}
+
+#skills h2 {
+    color: #3b0a6b;
+    font-size: 42px;
+}
+
+#skills p {
+    font-size: 28px;
+    font-family:  Helvetica;
+    text-align: left;
+}
+
+
+#education {
+    background: hsl(288, 54%, 70%);
+}
+
+#education h2 {
+    color: #3b0a6b;
+    font-size: 42px;
+}
+
+#education p {
+    font-size: 28px;
+    font-family: Helvetica;
+    text-align: left;
+}
+
+#qualification h2 {
+    color: #3b0a6b;
+    font-size: 42px;
+}
+
+#qualification p {
+    font-size: 28px;
+    font-style: italic;
+    font-family: Helvetica;
+}
+
+#training h2 {
+    color: #3b0a6b;
+    font-size: 42px;
+}
+
+#training p {
+    font-size: 28px;
+    font-style: italic;
+    font-family: Helvetica;
+}
+
+
+#experience h2 {
+    color: #3b0a6b;
+    font-size: 42px;
+}
+#experience p {
+    font-size: 28px;
+    font-style: italic;
+    font-family: Helvetica;
+}
+
+#contact {
+    background: hsl(288, 54%, 70%);
+}
+
+#contact h2 {
+    color: #3b0a6b;
+    font-size: 42px;
+}
+
+#contact p {
+    font-size: 24px;
+    font-family: Courier New;
+    text-align: left;
+}
+
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+    background:#600e6b;
+    color:white;
+}
+input, textarea, button {
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+button {
+    background: #600e6b;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #8a1d91;
+}
+
+
+#login h2 {
+    color: #3b0a6b;
+    font-size: 42px;
+}
+
+#feedback h2 {
+    color: #3b0a6b;
+    font-size: 42px;
+}
+
+#followme h2 {
+    color: #3b0a6b;
+    font-size: 42px;
+}
